@@ -1,0 +1,31 @@
+1. Git: é um sistema de controle de versão distribuído usado para rastrear alterações em arquivos e facilitar a colaboração em projetos de software.
+GitHub: é uma plataforma de hospedagem de código-fonte baseada na web que utiliza o Git como sistema de controle de versão subjacente.
+
+2. a) e b)
+Ordem correta: 
+git init: Este comando é usado para inicializar um repositório Git localmente no projeto do aluno. Ele cria um novo repositório vazio no diretório atual.
+
+git add: Em seguida, o aluno deve usar o comando git add para adicionar os arquivos do projeto ao índice do Git. Isso prepara os arquivos para serem commitados.
+
+git commit: O comando git commit é utilizado para confirmar as alterações feitas nos arquivos adicionados. É necessário fornecer uma mensagem de commit que descreva as alterações realizadas.
+
+git remote add origin: Agora, o aluno deve definir o repositório remoto no GitHub como o destino do envio (push) do projeto. O comando git remote add origin é usado para adicionar o repositório remoto com o nome "origin". É necessário fornecer a URL do repositório remoto.
+
+git push: Por fim, o comando git push é utilizado para enviar os commits do repositório local para o repositório remoto no GitHub. O aluno pode especificar o nome do branch (normalmente o branch padrão é "master" ou "main") que deseja enviar usando git push -u origin <branch>.
+
+3. Um repositório remoto é um repositório que está hospedado em um servidor remoto, como o GitHub, GitLab ou Bitbucket. Ele serve como um ponto central onde várias pessoas podem colaborar em um projeto, compartilhar código e controlar as versões. Já um repositório local é uma cópia do repositório remoto que está armazenada no computador de um desenvolvedor. O repositório local permite que o desenvolvedor trabalhe em seu próprio ambiente, faça alterações, crie novos commits e experimente sem afetar diretamente o repositório remoto.
+Para enviar as alterações do repositório local para o repositório remoto, o comando utilizado é: git push <nome_do_repositório_remoto> <nome_do_branch>
+
+4. Branches são usados para separar o trabalho em diferentes linhas de desenvolvimento no Git. Eles permitem que você desenvolva novas funcionalidades, corrija bugs e experimente alterações sem interferir no código principal. Comandos como git branch, git checkout e git merge são usados para criar, mudar e mesclar branches.
+
+5. O merge no Git é o processo de combinar as alterações de diferentes branches em um único branch. Ele é usado para incorporar o trabalho de um branch específico de volta ao branch principal. O merge é necessário quando você deseja unir o trabalho paralelo e manter um histórico consistente.
+
+6. 
+
+( V ) git pull é um comando válido.
+
+( F ) git git reflog é um comando válido.
+
+( F ) git dbsu é um comando válido.
+
+( F ) git pre-commit é um comando válido.
